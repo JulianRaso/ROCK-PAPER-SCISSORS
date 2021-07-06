@@ -1,9 +1,19 @@
 .container{
     text-align: center;
     margin-top: 15%;
+    border-style: solid;
+    margin-left: 35%;
+    margin-right: 35%;
+    
 }
 
 .results{
     margin-top: 2%;
-    
+
+}
+
+.rr{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
 }

@@ -10,14 +10,19 @@
 <body>
     
     <div class="container">
-        <h1>Rock, Paper, Scissors</h1>
+        <h1>Rock - Paper - Scissors</h1>
         <h2>Choose your weapon</h2>
-        <button id="r">Rock</button>
-        <button id="p">Paper</button>
-        <button id="s">Scissors</button>
+        <button id="Rock" onclick="game(this)">Rock</button>
+        <button id="Paper" onclick="game(this)">Paper</button>
+        <button id="Scissors" onclick="game(this)">Scissors</button>
 
-        <div class="results">
+        <div id="results">
             <h3>Results</h3>
+            <h3 id="roundStatus"></h3>
+            <div class="rr">
+                <h4 id = "user">You: 0</h4>
+                <h4 id="pc">Computer: 0</h4>
+            </div>
             
         </div>
     </div>
