@@ -1,4 +1,4 @@
-const status = document.getElementById("roundStatus");
+const roundStatus = document.getElementById("roundStatus");
 const winUser = document.getElementById('user');
 const winPc = document.getElementById('pc');
 var userPoints = 0;
@@ -48,7 +48,7 @@ function play(selection){
         userPoints = 0;
         pcPoints = 0;
     }
-    return status.innerHTML = playRound(selection,computerPlay());
+    return roundStatus.innerHTML = playRound(selection,computerPlay());
 }
 
 function game(btn){

@@ -4,17 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SimpleGame</title>
+    <title>JustaSimpleGame</title>
     <link rel="stylesheet" href="src/style/style.css">
 </head>
 <body>
     
     <div class="container">
-        <h1>Rock - Paper - Scissors</h1>
+        <div class="cont-title">
+            <div>Rock</div>
+            <div>Paper</div>
+            <div>Scissors</div>  
+        </div>
+        
+
         <h2>Choose your weapon</h2>
-        <button id="Rock" onclick="game(this)">Rock</button>
-        <button id="Paper" onclick="game(this)">Paper</button>
-        <button id="Scissors" onclick="game(this)">Scissors</button>
+
+        <div class="cont">
+            <div class="cont-weapons">
+                <img id="Rock" src="./assets/rock.png" alt="Rock Image" onclick="game(this)">
+                <div>Rock</div>
+            </div>
+
+            <div class="cont-weapons">
+                <img id="Rock" src="./assets/paper.png" alt="Rock Image" onclick="game(this)">
+                <div>Paper</div>
+            </div>
+
+            <div class="cont-weapons">
+                <img id="Scissors" src="./assets/scissors.png" alt="Rock Image" onclick="game(this)">
+                <div>Scissors</div>
+            </div>
+        </div>
+        
+        
 
         <div id="results">
             <h3>Results</h3>

@@ -1,19 +1,50 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-title{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
 .container{
-    text-align: center;
-    margin-top: 15%;
-    border-style: solid;
-    margin-left: 35%;
-    margin-right: 35%;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.cont{
+    display: flex;
+}
+
+.cont-weapons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
 }
 
 .results{
-    margin-top: 2%;
-
+    display: flex;
 }
 
 .rr{
     display: flex;
-    justify-content: center;
-    padding: 5px;
+    justify-content: space-between;
+    width: 200px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
 }
